@@ -1,0 +1,9 @@
+////////////////////////////////////////////////////
+// Factorial of n, where n is any positive integer//
+////////////////////////////////////////////////////
+var n = 5;
+var x = 1;
+for (var i = 1; i < n+1; i++ ){
+    x = x * i;
+}
+console.log(x);
